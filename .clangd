@@ -1,0 +1,9 @@
+Diagnostics:
+    UnusedIncludes: Strict
+    # Suppress: [-Wunknown-attributes]
+
+CompileFlags:
+    CompilationDatabase: .
+    Add: [--target=avr, -Wno-attributes]
+    Remove: [-mcall-prologues]
+    Compiler: /usr/bin/avr-gcc
