@@ -20,10 +20,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #undef LOCKING_SUPPORT_ENABLE
 #undef LOCKING_RESYNC_ENABLE
 
-#define NO_MUSIC_MODE
-
-#define LAYER_STATE_4BIT
-
 #undef RGBLIGHT_ANIMATIONS
 #undef RGBLIGHT_EFFECT_BREATHING
 #undef RGBLIGHT_EFFECT_RAINBOW_MOOD
@@ -81,3 +77,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #undef ENABLE_RGB_MATRIX_MULTISPLASH
 #undef ENABLE_RGB_MATRIX_SOLID_SPLASH
 #undef ENABLE_RGB_MATRIX_SOLID_MULTISPLASH
+
+#define NO_MUSIC_MODE
+#define LAYER_STATE_4BIT
